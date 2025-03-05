@@ -1,0 +1,20 @@
+/* Container for the slideshow - displays slides in a row */
+.slideshow {
+    display: flex;
+    width: 300vw; /* 3 slides = 300% of viewport width */
+  }
+  
+  /* Each slide takes up full viewport width and height */
+  .slide {
+    min-width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Make images cover the entire slide */
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
